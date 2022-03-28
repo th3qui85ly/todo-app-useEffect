@@ -57,7 +57,7 @@ const Todo =()=>{
      onChange ={ (e) =>setValue(e.target.value)}
      className = "text_input" 
      />
-    <button onClick={addToList} className="addButton">Add</button>
+    <button onClick={addToList} className="addButton">Save</button>
     {
       todo.map((item)=>{
         return <div>{item.title}</div>
